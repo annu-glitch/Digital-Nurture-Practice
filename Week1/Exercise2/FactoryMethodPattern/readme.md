@@ -20,6 +20,7 @@ This is a simple Java project that demonstrates the **Factory Method Design Patt
 ## 🔧 How to Run
 
 javac *.java
+
 java Main
 
 # What This Project Does
