@@ -8,13 +8,21 @@ This is a simple Java project that demonstrates the **Factory Method Design Patt
 
 .
 ├── Document.java
+
 ├── WordDocument.java
+
 ├── PdfDocument.java
+
 ├── ExcelDocument.java
+
 ├── DocumentFactory.java
+
 ├── WordFactory.java
+
 ├── PdfFactory.java
+
 ├── ExcelFactory.java
+
 └── Main.java
 
 ## 🔧 How to Run
