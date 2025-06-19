@@ -1,7 +1,10 @@
 //client code
 
-public class Main{
-    public static void main(String args[]){
+using System;
+public class MainClass
+{
+    public static void Main(string[] args)
+    {
         DocumentFactory factory; //reference variable of abstract class
 
         factory = new WordFactory();
