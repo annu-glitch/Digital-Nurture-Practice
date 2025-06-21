@@ -1,0 +1,94 @@
+[33m5762981[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Moved files out of Exercise1_WindowFunctions and deleted folder
+[33m7e11c9b[m Create readme.md
+[33mc1b0885[m Add files via upload
+[33mcc0c410[m Create c
+[33ma5a87eb[m Create DENSE_RANK.sql
+[33ma2850c1[m Create RANK.sql
+[33m6c74b8e[m Create ROW_NUMBER.sql
+[33m8f8e72b[m Create Product_table.sql
+[33md855758[m Delete Week2_AdvancedSQL_and_NUnit/Exercise1 directory
+[33m54c69d5[m Create c
+[33m84ff1a8[m Delete Week2_AdvancedSQL_and_NUnit
+[33me5ff524[m Create Week2_AdvancedSQL_and_NUnit
+[33m9eb184a[m Delete Week2 directory
+[33m0e81621[m Delete Week2/AdvancedSQL_&_NUnit/Exercise1_WindowFunctions directory
+[33m14a54eb[m Rename DENSE_RANK.sql to DENSE_RANK.sql
+[33m8ef6bce[m Add files via upload
+[33m165dc38[m Create output1.sql
+[33m25cf4e0[m Create DENSE_RANK.sql
+[33mb514a6f[m Create RANK.sql
+[33ma5b6503[m Update ROW_NUMBER.sql
+[33m2691a7b[m Update ROW_NUMBER.sql
+[33m943daf7[m Update Product_table.sql
+[33m2fc48bc[m Create ROW_NUMBER.sql
+[33m4638feb[m Create Product_table.sql
+[33mc6a1b6f[m Add files via upload
+[33m76b49c3[m Create readme.md
+[33m33a9290[m Delete Week1_DesignPatterns/Exercise5_DSAQuizCertificate
+[33m37f93db[m Create Exercise5_DSAQuizCertificate
+[33m809237b[m Delete Week1_DesignPatterns/Exercise5/DSA QUIZ/Certificate
+[33m5f5ab8c[m Create Certificate
+[33m434f654[m Update readme.md
+[33meb9f86b[m Add files via upload
+[33mf109086[m Delete Week1_DesignPatterns/Exercise4_FinancialForecast/output.png
+[33mde8c244[m Update and rename OptimalForecast.java to OptimalForecast.cs
+[33mc99c812[m Update and rename IterativeForecast.java to IterativeForecast.cs
+[33m3b26ef6[m Update and rename RecursiveForecast.java to RecursiveForecast.cs
+[33m581855e[m Update and rename Main.java to Main.cs
+[33m1c01aee[m Rename output_E_Commerce_Seach.png to output_E_Commerce_Search.png
+[33m65c035b[m Rename output.png to output_E_Commerce_Seach.png
+[33mdc72a23[m Rename output_E_Commerce_Search.png to output.png
+[33mf79a3ef[m Update readme.md
+[33m9b7d840[m Add files via upload
+[33me181bc2[m Delete Week1_DesignPatterns/Exercise3_ECommerceSearch/output.png
+[33mf93905d[m Update and rename Main.java to Main.cs
+[33m98352db[m Update and rename Product.java to Product.cs
+[33mebc7d3b[m Update and rename SearchHelper.java to SearchHelper.cs
+[33m28ff203[m Update readme.md
+[33mb4b2914[m Add files via upload
+[33m6bd30a0[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/Output.png
+[33m61f13ff[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/WordDocument.java
+[33m157dc5b[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/PdfFactory.java
+[33mf427576[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/PdfDocument.java
+[33mfa44dd1[m Update and rename Main.java to Main.cs
+[33mc2a1d6a[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/ExcelFactory.java
+[33md395def[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/ExcelDocument.java
+[33m43184e3[m Delete Week1_DesignPatterns/Exercise2_FactoryMethodPattern/src/DocumentFactory.java
+[33m5355df7[m Update and rename Document.java to Document.cs
+[33me51e8d8[m Update readme.md
+[33m7e7182b[m Add files via upload
+[33m5002aa6[m Delete Week1_DesignPatterns/Exercise1_Singleton/Output.png
+[33m1934e02[m Update and rename Logger.java to Logger.cs
+[33maff1e44[m Update and rename Main.java to Main.cs
+[33m39844c8[m Add files via upload
+[33m8885451[m Add files via upload
+[33me5fd027[m Create Main.java
+[33m66ede40[m Create OptimalForecast.java
+[33m52d904c[m Create IterativeForecast.java
+[33m6f562a6[m Create RecursiveForecast.java
+[33m927ffc5[m Moved and renamed E-Commerce Search to Exercise3_ECommerceSearch
+[33mc429265[m Renamed and moved FactoryMethodPattern to Exercise2_FactoryMethodPattern
+[33m3367a01[m Renamed Week1 to Week1_DesignPatterns
+[33m2f79131[m Add files via upload
+[33mdb0b562[m Add files via upload
+[33m6a6e1ab[m Create Main.java
+[33m9ca91bf[m Create SearchHelper.java
+[33m795071f[m Create Product.java
+[33m4208c30[m Update readme.md
+[33m221ae02[m Update readme.md
+[33m138d698[m Add files via upload
+[33mc263354[m Add files via upload
+[33m98b1325[m Create Main.java
+[33mdea6208[m Create ExcelFactory.java
+[33m443c432[m Create PdfFactory.java
+[33m669abfc[m Create DocumentFactory.java
+[33me181e51[m Create ExcelDocument.java
+[33m572a350[m Create PdfDocument.java
+[33mb5fe9b4[m Create WordDocument.java
+[33m709dd79[m Create Document.java
+[33ma5628b0[m Moved Exercise1_Singleton into Week1 folder
+[33mf4c445b[m Add files via upload
+[33m911fd04[m Delete Output.png
+[33m97dc9f6[m Add files via upload
+[33m38cccad[m Create Main.java
+[33m2241693[m Create Logger.java
