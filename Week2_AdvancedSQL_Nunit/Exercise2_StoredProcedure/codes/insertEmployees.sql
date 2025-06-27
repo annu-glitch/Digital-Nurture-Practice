@@ -16,3 +16,7 @@ END;
 EXEC sp_InsertEmployees 5, 'Annu', 'Priya', '3', '78000.56', '2025-08-29';
 EXEC sp_InsertEmployees 6, 'Arpit', 'Anand', '2', '78000.56', '2022-08-29';
 
+--check in original table
+select 'rows added' as message;
+select * from Employees;
+
