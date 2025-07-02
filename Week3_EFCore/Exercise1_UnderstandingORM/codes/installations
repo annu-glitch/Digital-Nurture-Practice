@@ -1,0 +1,6 @@
+in terminal or command prompt, navigate to RetailInventory directory and install the following packages:
+
+1. To connect to SQL Server:
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer   
+2. To create migrations(schema generation):
+   dotnet add package Microsoft.EntityFrameworkCore.Design
