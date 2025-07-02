@@ -1,0 +1,10 @@
+1. to create migration to keep the database in sync with the data models
+    open Tools -> NuGet Package Manager -> Package Manager Console
+    Type: 
+    add-migration CreateRetailInventoryDB  (creates migration files from your model)
+
+2. apply migration
+    open Tools -> NuGet Package Manager -> Package Manager Console
+    Type: 
+    Update-Database (creates a database and tables in local SQL Server instance)
+    
