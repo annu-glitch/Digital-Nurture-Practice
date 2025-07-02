@@ -1,0 +1,7 @@
+installing the necessar packages:
+
+step1. Go to Tools -> NuGet Package Manager -> Package Manager Console
+step2. type the following commands one by one:
+        Install-Package Microsoft.EntityFrameworkCore
+        Install-Package Microsoft.EntityFrameworkCore.Tools  (tools to create migrations)
+        Install-Package Microsoft.Extensions.Configuration.Json (to manually add json file for external configuration)
