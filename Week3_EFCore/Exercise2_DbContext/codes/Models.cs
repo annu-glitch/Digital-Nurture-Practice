@@ -1,24 +1,22 @@
 using System.Collections.Generic;
 
-namespace RetailInventory.Models
+namespace RetailInventoryProject.Models
 {
-
-    //creating the data model Category
+    //Creating the data model Category
     public class Category
     {
-        public int Id { get; set; }   //primary key: not nullable reference type
-        public string Name { get; set; } 
-        public List<Product> Products { get; set; }   //navigation property: 1 to many relationship
+        public int Id { get; set; }                                      //primary key
+        public string Name { get; set; } = string.Empty;                 //category name
+        public List<Product> Products { get; set; } = new List<Product>(); //navigation property (1 category can have many products)
     }
 
-    //creating the data model Product
+    //Creating the data model Product
     public class Product
     {
-        public int Id { get; set; }    //primary key
-        public string Name { get; set; }     //name of the product
-        public decimal Price { get; set; }     //price
-        public int CategoryId { get; set; }   //foreign key
-        public Category Category { get; set; }    //navigation property: many to 1 relationship
+        public int Id { get; set; }                                      //primary key
+        public string Name { get; set; } = string.Empty;                 //product name
+        public decimal Price { get; set; }                               //product price
+        public int CategoryId { get; set; }                              //foreign key
+        public Category Category { get; set; } = new Category();         //navigation property (1 product belongs to 1 category)
     }
-
 }
