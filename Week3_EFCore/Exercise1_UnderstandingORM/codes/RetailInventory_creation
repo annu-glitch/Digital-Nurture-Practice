@@ -1,7 +1,7 @@
 In terminal or command prompt:
 
-1. create a new console app called RetailInventory:
-   dotnet new console -n RetailInventory
+1. create a new console app called RetailInventoryProject:
+   dotnet new console -n RetailInventoryProject
 
 2. navigate to the directory:
-  cd RetailInventory
+  cd RetailInventoryProject
