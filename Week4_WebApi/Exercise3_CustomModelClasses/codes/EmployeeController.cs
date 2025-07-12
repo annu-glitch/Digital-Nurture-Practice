@@ -1,3 +1,4 @@
+using FirstWebApiDemo.CustomFilters;
 using FirstWebApiDemo.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ namespace FirstWebApiDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ServiceFilter(typeof(CustomAuthFilter))] // Apply custom authorization filter
     public class EmployeeController : ControllerBase
     {
         private readonly List<Employee> _employees;
@@ -15,6 +17,9 @@ namespace FirstWebApiDemo.Controllers
             _employees = GetStandardEmployeeList();
         }
 
+        /// <summary>
+        /// Generates a standard list of employees.
+        /// </summary>
         private List<Employee> GetStandardEmployeeList()
         {
             return new List<Employee>
@@ -49,24 +54,32 @@ namespace FirstWebApiDemo.Controllers
             };
         }
 
-        // GET api/Employee
+        /// <summary>
+        /// Returns the list of all employees.
+        /// </summary>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [AllowAnonymous]
+        [AllowAnonymous] // Allows unauthenticated access
         public ActionResult<List<Employee>> Get()
         {
             return Ok(_employees);
         }
 
-        // GET api/Employee/standard
+        /// <summary>
+        /// Returns the first employee as a standard example.
+        /// </summary>
         [HttpGet("standard")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult<Employee> GetStandard()
         {
-            return Ok(_employees.First());
+            // Trigger exception intentionally for testing
+            throw new Exception("Demo: Something went wrong while fetching standard employee.");
         }
 
-        // POST api/Employee
+        /// <summary>
+        /// Adds a new employee. Uses FromBody for input.
+        /// </summary>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -75,6 +88,7 @@ namespace FirstWebApiDemo.Controllers
             if (emp == null)
                 return BadRequest("Invalid employee data");
 
+            // Normally you'd save to DB here
             return Created("", emp);
         }
     }
