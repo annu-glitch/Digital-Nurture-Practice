@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import officeImage from './office.jpg'; // replace with your image in src folder
-
+import officeImage from './office.jpg'; 
 function App() {
   const element = "Office Space";
 
-  const officeList = [
+  const officeList = [                      //array list of objects
     { Name: "DBS", Rent: 50000, Address: "Chennai" },
     { Name: "WeWork", Rent: 75000, Address: "Bangalore" },
     { Name: "Smartworks", Rent: 40000, Address: "Pune" },
@@ -17,8 +16,8 @@ function App() {
       <h1>{element}, at Affordable Range</h1>
       <img src={officeImage} width="25%" height="25%" alt="Office Space" />
 
-      {officeList.map((item, index) => {
-        const rentColor = item.Rent <= 60000 ? 'textRed' : 'textGreen';
+      {officeList.map((item, index) => {          //loops through each array element and returns a new array
+        const rentColor = item.Rent <= 60000 ? 'textRed' : 'textGreen';    //conditional operator: based on coondition, either displays red text or green
 
         return (
           <div key={index} className="office-block">
