@@ -1,0 +1,13 @@
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+button {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
